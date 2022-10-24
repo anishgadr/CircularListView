@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rotation="180"
+    android:orientation="vertical"
+    android:id="@+id/itemarc"
+    >
+
+    <io.getstream.avatarview.AvatarView
+        android:id="@+id/item"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:avatarViewBorderColor="@color/yellow"
+        app:avatarViewBorderWidth=".5dp"
+        app:srcCompat="@drawable/pic"
+        app:avatarViewIndicatorBorderColor="@color/white"
+        app:avatarViewIndicatorBorderSizeCriteria="10"
+        app:avatarViewIndicatorColor="@color/md_green_100"
+        app:avatarViewIndicatorEnabled="true"
+        app:avatarViewIndicatorPosition="bottomRight"
+        app:avatarViewIndicatorSizeCriteria="9"
+        app:avatarViewInitialsTextStyle="bold"
+        app:avatarViewShape="circle" />
+
+    <TextView
+        android:id="@+id/itemname"
+        android:layout_width="wrap_content"
+        android:text="dddddd"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
